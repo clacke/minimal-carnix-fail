@@ -1,0 +1,15 @@
+[package]
+name = "minimal-carnix-fail"
+version = "0.0.0"
+authors = [ "Claes Wallin <claes.wallin@greatsinodevelopment.com>"
+          ]
+license = "MIT"
+repository = "https://github.com/clacke/minimal-carnix-fail"
+description = """
+This application builds with cargo, but not with carnix.
+"""
+
+
+[dependencies]
+#dialoguer = "0.3.0"
+dialoguer = { git = "https://github.com/mitsuhiko/dialoguer", rev = "d03a7a57edebbf431b24425891373ea293abac8e" }

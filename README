@@ -1,0 +1,3 @@
+This application builds with cargo, but not with carnix.
+
+src/main.rs stolen from https://github.com/mitsuhiko/dialoguer/blob/88641e92dc333832acc246f3f1e6955915d216aa/examples/checkboxes.rs
